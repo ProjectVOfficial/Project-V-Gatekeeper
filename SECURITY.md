@@ -4,9 +4,9 @@ Project V // Gatekeeper is security-sensitive software. Reports involving firewa
 
 ## Supported Versions
 
-During the 1.0 release-candidate period, only the newest published release candidate is supported for security testing.
+**Gatekeeper 1.0.0 Final** is the current supported stable release.
 
-After 1.0.0 Final, the current stable release will receive priority for security fixes.
+Security fixes should target the latest stable release unless Project V explicitly publishes support for an additional version.
 
 ## Reporting a Vulnerability
 
@@ -43,4 +43,4 @@ See [docs/SECURITY-ARCHITECTURE.md](docs/SECURITY-ARCHITECTURE.md).
 
 Gatekeeper has not been represented as independently audited unless a specific external audit is published here.
 
-A successful internal test or release-readiness check is not equivalent to an independent penetration test or formal security audit.
+A successful internal test, release-readiness check, or final build validation is not equivalent to an independent penetration test or formal security audit.
