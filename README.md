@@ -2,7 +2,7 @@
 
 **Local-first Windows network intelligence, application firewall policy, WFP enforcement, privacy visibility, and reversible network control.**
 
-> **Status:** Gatekeeper 1.0 Release Candidate  
+> **Status:** Gatekeeper 1.0.0 Final  
 > **Platform:** Windows x64  
 > **Source model:** Proprietary / source-closed public release repository
 
@@ -108,23 +108,30 @@ A desktop-portable build can also run from removable storage.
 
 **Important:** the portable desktop executable does not make the privileged Gatekeeper Core service portable. Native firewall enforcement requires Gatekeeper Core to already be installed and running on the Windows computer.
 
-## Current Release Status
+## Current Release
 
-Gatekeeper is currently in the final 1.0 release-candidate validation cycle.
+**Project V // Gatekeeper 1.0.0 Final** completed release-candidate regression, USB portable validation, hidden-background-process validation, TypeScript/Rust build validation, and final packaging validation on September 26, 2026.
 
-The release candidate has completed feature freeze and is undergoing final packaging, portable-build, regression, and clean-release validation before 1.0.0 Final.
+See [RELEASE-NOTES-1.0.0.md](RELEASE-NOTES-1.0.0.md).
 
 ## Downloads
 
-Official Windows binaries will be published under **GitHub Releases** after final validation.
+Official Windows binaries are distributed through **GitHub Releases**.
 
-When releases are available, verify downloaded files using the published SHA-256 manifest before running them.
+For 1.0.0, the release package should include:
+
+- Windows installer
+- desktop-portable ZIP
+- SHA-256 manifest
+- release notes
+
+Verify downloaded files using the published SHA-256 manifest before running them.
 
 ## Security Notice
 
 Gatekeeper is security-oriented software, but it should not be interpreted as independently security-audited unless a specific external audit is published.
 
-Unsigned development or release-candidate builds may also trigger Windows SmartScreen or publisher warnings.
+Unsigned builds may trigger Windows SmartScreen or publisher warnings.
 
 See [SECURITY.md](SECURITY.md).
 
