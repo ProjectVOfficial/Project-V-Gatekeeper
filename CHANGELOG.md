@@ -2,9 +2,43 @@
 
 Notable public Gatekeeper changes are documented here.
 
-## 1.0.0 — Pending Final Release
+## 1.0.0 — Final Release — 2026-09-26
 
-Final 1.0 release is pending completion of release-candidate regression, portable-build validation, installer validation, and final packaging.
+Project V // Gatekeeper 1.0.0 completed its release-candidate cycle and final packaging validation.
+
+### Final release status
+
+- final source validation passed
+- TypeScript validation passed
+- Rust/Tauri build validation passed
+- installer packaging completed successfully
+- desktop-portable packaging completed successfully
+- USB portable runtime validation passed
+- recurring background PowerShell console flashing fixed and revalidated
+- release identity finalized as 1.0.0
+
+### Core capabilities
+
+- live TCP/UDP connection visibility
+- process and executable attribution
+- per-application inspector
+- protected-application controls
+- native Windows Filtering Platform enforcement
+- authenticated Gatekeeper Core IPC
+- reversible global and per-application protection
+- policy templates and assignment management
+- SYNC / DRIFT state
+- explicit Apply / Reapply controls
+- policy backup and rollback
+- Learning Mode
+- blocklist and allowlist intelligence
+- WFP audit attribution
+- persistent searchable Event Ledger
+- Event Intelligence accuracy hardening
+- Privacy Intelligence
+- release-readiness preflight
+- safe diagnostics export
+- installer and desktop-portable release packaging
 
 ## 1.0.0-rc.1 — Release Candidate
 
@@ -24,26 +58,6 @@ Final 1.0 release is pending completion of release-candidate regression, portabl
 - RC1a: encoding-safe Core boundary checker
 - RC1b: TypeScript compile repair for removed placeholder fallback
 - RC1c: hidden background PowerShell process spawning in packaged desktop builds
-
-### Features carried into RC
-
-- live TCP/UDP connection visibility
-- per-application inspector
-- protected-application controls
-- native WFP enforcement
-- authenticated Core IPC
-- reversible policy enforcement
-- policy templates and assignment management
-- SYNC / DRIFT state
-- explicit Apply / Reapply controls
-- policy backup and rollback
-- Learning Mode
-- blocklist and allowlist intelligence
-- WFP audit attribution
-- persistent Event Ledger
-- Event Intelligence accuracy hardening
-- Privacy Intelligence
-- release-readiness preflight
 
 ## Earlier Development
 
